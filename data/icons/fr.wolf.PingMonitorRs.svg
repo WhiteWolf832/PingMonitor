@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1b30"/>
+      <stop offset="1" stop-color="#16101d"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="25.5" fill="none" stroke="#3c2c48" stroke-width="1"/>
+  <!-- grille -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="2">
+    <line x1="24" y1="44" x2="104" y2="44"/>
+    <line x1="24" y1="64" x2="104" y2="64"/>
+    <line x1="24" y1="84" x2="104" y2="84"/>
+  </g>
+  <!-- courbe de latence -->
+  <polyline points="24,78 36,46 44,82 52,40 60,70 76,72 92,52 104,58"
+            fill="none" stroke="#e0a020" stroke-width="5"
+            stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- pastille état -->
+  <circle cx="98" cy="34" r="9" fill="#4ec85a"/>
+  <circle cx="98" cy="34" r="9" fill="none" stroke="#16101d" stroke-width="3"/>
+  <!-- petit "R" pour Rust (badge) -->
+  <text x="30" y="106" font-family="monospace" font-size="20" font-weight="bold"
+        fill="#e0a020" opacity="0.85">R</text>
+</svg>

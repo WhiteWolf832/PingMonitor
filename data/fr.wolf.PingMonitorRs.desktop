@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Ping Monitor (Rust)
+GenericName=Network Monitor
+GenericName[fr]=Moniteur réseau
+GenericName[de]=Netzwerkmonitor
+GenericName[it]=Monitor di rete
+GenericName[es]=Monitor de red
+GenericName[pt]=Monitor de rede
+Comment=Monitor your internet connection: latency, loss, jitter, history and traceroute
+Comment[fr]=Surveillance de connexion internet : latence, perte, gigue, historique et traceroute
+Comment[de]=Überwachung der Internetverbindung: Latenz, Verlust, Jitter, Verlauf und Traceroute
+Comment[it]=Monitoraggio della connessione internet: latenza, perdita, jitter, cronologia e traceroute
+Comment[es]=Supervisión de la conexión a internet: latencia, pérdida, jitter, historial y traceroute
+Comment[pt]=Monitoramento da conexão com a internet: latência, perda, jitter, histórico e traceroute
+Exec=/home/wolf/Claude/ping-monitor-rs/target/release/ping-monitor-rs
+Icon=fr.wolf.PingMonitorRs
+Terminal=false
+Categories=Network;Monitor;
+Keywords=ping;latency;network;internet;connection;traceroute;réseau;latence;
+StartupNotify=true
+StartupWMClass=fr.wolf.PingMonitorRs
