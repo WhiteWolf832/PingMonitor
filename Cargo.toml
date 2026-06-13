@@ -2,6 +2,9 @@
 name = "ping-monitor-rs"
 version = "0.1.0"
 edition = "2024"
+description = "Network latency monitor with quality scoring and live graphs (GTK4/libadwaita)."
+repository = "https://github.com/WhiteWolf832/PingMonitor"
+license = "GPL-3.0-or-later"
 
 [dependencies]
 adw = { version = "0.9.1", package = "libadwaita", features = ["v1_5"] }
